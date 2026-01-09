@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Headline Explainer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📰 Daily Headline Explainer</h1>
+      <p>Select a headline or enter your own for AI analysis</p>
+    </header>
+
+    <main>
+      <section class="headlines-panel">
+        <h2>🔥 Trending Headlines</h2>
+        <div class="headlines-list" id="headlinesList"></div>
+      </section>
+
+      <section class="analysis-panel">
+        <div class="input-section">
+          <textarea id="customHeadline" placeholder="Or enter your own headline..."></textarea>
+          <button id="analyzeBtn">🧠 Analyze</button>
+        </div>
+        <div class="result-section">
+          <h2>✨ Analysis Result</h2>
+          <div id="result" class="result-content">Select a headline to see the analysis...</div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
